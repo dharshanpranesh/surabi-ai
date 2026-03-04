@@ -1,0 +1,139 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:#f5f7fb;
+color:#333;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.nav-btn{
+background:#4b6b78;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:6px;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+background:linear-gradient(135deg,#4b6b78,#6f8f9d,#a5bcc7);
+color:white;
+}
+
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.cta-btn{
+background:white;
+color:#4b6b78;
+padding:15px 30px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+.hero-image{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+.image-card{
+background:rgba(255,255,255,0.12);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(12px);
+box-shadow:0 10px 40px rgba(0,0,0,0.25);
+animation:float 4s ease-in-out infinite;
+}
+
+
+.image-card img{
+width:320px;
+border-radius:12px;
+}
+
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0px);}
+}
+
+
+.features{
+padding:80px;
+text-align:center;
+}
+
+.feature-grid{
+display:flex;
+gap:30px;
+justify-content:center;
+margin-top:40px;
+}
+
+.feature-card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+width:250px;
+}
+
+
+.download{
+text-align:center;
+padding:80px;
+background:#4b6b78;
+color:white;
+}
+
+.download-btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 35px;
+background:white;
+color:#4b6b78;
+font-weight:bold;
+border-radius:8px;
+text-decoration:none;
+}
+
+
+footer{
+text-align:center;
+padding:30px;
+background:#222;
+color:white;
+}
