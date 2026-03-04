@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-transformers
-torch
-pdfplumber
-sentencepiece
-jinja2
-
